@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+
+html {
+  background: url("bg.jpg") no-repeat center top;
+}
+
+body {
+  width: 63%;
+  margin: 0 auto;
+  }
+
+header {
+  text-align: center;
+  padding: 10px;
+}
+
+nav {
+  text-align: center;
+  margin: 0;
+}
+
+nav li {
+  text-decoration: none;
+  display: inline;
+  font-family: 'Permanent Marker', cursive;
+  padding: 0 30px;
+  font-size: 30px;
+}
+
+nav a {
+  color: #133450;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+}
+
+section {
+  background: rgba(0,0,0, 0.3);
+  padding: 0 40px;
+  margin: 0;
+  overflow: auto;
+}
+
+section h1 {
+  color: white;
+  font-size: 72px;
+  font-family: "Georgia", serif;
+  padding: 10px 0 0 10px;
+  margin: 0;
+}
+
+section h2 {
+  margin: 0;
+  padding: 10px 0 0 10px;
+  font-size: 25px;
+  font-family: "Georgia", serif;
+  color: #8CF0EF;
+}
+
+figure {
+  border: white solid 1px;
+  background: black;
+  padding: 10px;
+  width: 26%;
+  float: left;
+  margin: 2%;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption {
+  font-size: 90%;
+  font-family: "Arial", sans-serif;
+  color: white;
+  text-emphasis: bold;
+  text-align: center;
+}
+
+footer {
+  color: white;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin: 40px;
+}
+
+footer a {
+  color: #8CF0EF;
+}
