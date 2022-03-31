@@ -1,0 +1,497 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, section, footer {
+  background: white;
+  margin: 10px;
+}
+
+header {
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.7);
+}
+
+header img {
+  width: 70px;
+  padding: 0;
+  margin: 10px 0 5px 20px;
+}
+
+nav {
+  margin: 0 20px 0 0;
+  background-color: transparent;
+  text-align: right;
+}
+
+nav ul {
+  position: relative;
+  bottom: 25px;
+  margin: -20px 0 0 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  padding: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: lightblue;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: orange;
+}
+
+.mainimage {
+  margin: 0;
+  padding: 0;
+}
+
+#titlebox {
+  width: 50%;
+  height: 20%;
+  background: rgba(63,56,60, 0.9);
+  position: absolute;
+  top: 42%;
+  left: 25%;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  border-radius: 25px;
+}
+
+#titlebox h1 {
+  margin: 40px;
+}
+
+#fall {
+  margin: 0;
+  padding: 70px 20px 100px 20px;
+  background-color: orange;
+  overflow: auto;
+}
+
+#fall h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+.autumnimage {
+  margin: 100px 30px 0 10px;
+  background-color: black;
+  padding: 5px;
+  float: left;
+  width: 25%;
+}
+
+.autumnimage img {
+  width: 100%;
+}
+
+.autumnimage figcaption {
+  color: white;
+  text-align: center;
+}
+
+#falltext {
+  float: left;
+  width: 69%;
+  font-size: 20px;
+}
+
+#winter {
+  margin: 0;
+  padding: 70px 20px 100px 20px;
+  background-color: lightblue ;
+  overflow: auto;
+}
+
+#winter h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+.rightimage {
+  margin: 0 20px 0 0;
+  background-color: black;
+  padding: 5px;
+  float: right;
+  width: 25%;
+}
+
+.rightimage img {
+  width: 100%;
+}
+
+.rightimage figcaption {
+  color: white;
+  text-align: center;
+}
+
+#wintertext {
+  margin: 0 0 0 20px;
+  float: left;
+  width: 69%;
+  font-size: 20px;
+  text-align: right;
+}
+
+#spring {
+  margin: 0;
+  padding: 70px 20px 100px 20px;
+  background-color: lightgreen ;
+  overflow: auto;
+}
+
+#spring h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+.leftimage {
+  margin: 0px 30px 0 30px;
+  background-color: black;
+  padding: 5px;
+  float: left;
+  width: 25%;
+}
+
+.leftimage img {
+  width: 100%;
+}
+
+.leftimage figcaption {
+  color: white;
+  text-align: center;
+}
+
+#springtext {
+  margin: 0 0 0 20px;
+  float: right;
+  width: 69%;
+  font-size: 20px;
+  text-align: left;
+}
+
+#summer {
+  margin: 0;
+  padding: 70px 20px 100px 20px;
+  background-color: yellow ;
+  overflow: auto;
+}
+
+#summer h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+.leftimage {
+  margin: 0px 30px 0 30px;
+  background-color: black;
+  padding: 5px;
+  float: left;
+  width: 25%;
+}
+
+.leftimage img {
+  width: 100%;
+}
+
+.leftimage figcaption {
+  color: white;
+  text-align: center;
+}
+
+#summertext {
+  margin: 0 0 0 20px;
+  float: right;
+  width: 69%;
+  font-size: 20px;
+  text-align: left;
+}
+
+footer {
+  margin: 0;
+  background-color: rgba(63,56,60);
+  color: white;
+  overflow: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.autumn header {
+  position: relative;
+  background-color: black;
+}
+
+.autumn nav {
+  margin: 0 20px 0 0;
+  background-color: transparent;
+  text-align: right;
+}
+
+.autumn nav ul {
+  position: relative;
+  bottom: 25px;
+  margin: -20px 0 0 0;
+  padding: 0;
+}
+
+.autumn nav li {
+  display: inline;
+  padding: 0 20px;
+}
+
+.autumn nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.autumn nav a:hover {
+  color: lightblue;
+}
+
+.autumn section {
+  overflow: auto;
+}
+
+.banner {
+  width: 100%;
+}
+
+.autumn section {
+  background-color: rgb(237, 238, 240);
+}
+
+.autumn section h1 {
+  text-align: center;
+}
+
+.autumn section h1 {
+  font-size: 40px;
+}
+
+.autumn section p {
+  margin: 20px;
+}
+
+#pumpkins {
+  width: 30%;
+  float: left;
+  margin: 20px;
+}
+
+#haltext {
+  text-align: left;
+  margin: 20px 0 0 0;
+}
+
+.summer header {
+  position: relative;
+  background-color: black;
+}
+
+.summer nav {
+  margin: 0 20px 0 0;
+  background-color: transparent;
+  text-align: right;
+}
+
+.summer nav ul {
+  position: relative;
+  bottom: 25px;
+  margin: -20px 0 0 0;
+  padding: 0;
+}
+
+.summer nav li {
+  display: inline;
+  padding: 0 20px;
+}
+
+.summer nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.summer nav a:hover {
+  color: lightblue;
+}
+
+.summer section {
+  overflow: auto;
+}
+
+.banner {
+  width: 100%;
+}
+
+.summer section {
+  background-color: rgb(237, 238, 240);
+}
+
+.summer section h1 {
+  text-align: center;
+}
+
+.summer section h1 {
+  font-size: 40px;
+}
+
+.summer section p {
+  margin: 20px;
+}
+
+#flag  {
+  width: 30%;
+  float: left;
+  margin: 20px;
+}
+
+.winter header {
+  position: relative;
+  background-color: black;
+}
+
+.winter nav {
+  margin: 0 20px 0 0;
+  background-color: transparent;
+  text-align: right;
+}
+
+.winter nav ul {
+  position: relative;
+  bottom: 25px;
+  margin: -20px 0 0 0;
+  padding: 0;
+}
+
+.winter nav li {
+  display: inline;
+  padding: 0 20px;
+}
+
+.winter nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.winter nav a:hover {
+  color: lightblue;
+}
+
+.winter section {
+  overflow: auto;
+}
+
+.banner {
+  width: 100%;
+}
+
+.winter section {
+  background-color: rgb(237, 238, 240);
+}
+
+.winter section h1 {
+  text-align: center;
+}
+
+.winter section h1 {
+  font-size: 40px;
+}
+
+.winter section h2,p {
+  margin: 20px;
+}
+
+#christmas  {
+  width: 30%;
+  float: left;
+  margin: 40px;
+}
+
+.spring header {
+  position: relative;
+  background-color: black;
+}
+
+.spring nav {
+  margin: 0 20px 0 0;
+  background-color: transparent;
+  text-align: right;
+}
+
+.spring nav ul {
+  position: relative;
+  bottom: 25px;
+  margin: -20px 0 0 0;
+  padding: 0;
+}
+
+.spring nav li {
+  display: inline;
+  padding: 0 20px;
+}
+
+.spring nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.spring nav a:hover {
+  color: lightblue;
+}
+
+.spring section {
+  overflow: auto;
+}
+
+.banner {
+  width: 100%;
+}
+
+.spring section {
+  background-color: rgb(237, 238, 240);
+}
+
+.spring section h1 {
+  text-align: center;
+}
+
+.spring section h1 {
+  font-size: 40px;
+}
+
+.spring section h2,p {
+  margin: 20px;
+}
+
+#easter  {
+  width: 30%;
+  float: left;
+  margin: 20px;
+}
