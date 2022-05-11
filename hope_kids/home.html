@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hope Kids</title>
+    <link href="home.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8K0L438F8Z"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-8K0L438F8Z');
+    </script>
+  </head>
+  <body>
+    <div class="headerbox">
+      <header>
+        <img src="images/HorizontalHopeKidsLogo.png" alt="Logo">
+        <nav>
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="classes.html">CLASSES</a></li>
+            <li><a href="resources.html">RESOURCES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
+
+    </div>
+
+      <section>
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/caleb_ethan_party.jpg" data-thumb="images/caleb_ethan_party.jpg" alt="Two boys in a Box Car" />
+                <img src="images/crafts.jpg" data-thumb="images/crafts.jpg" alt="" alt="Two girls doing crafts" />
+                <img src="images/boxcar_party.jpg" data-thumb="images/boxcar_party.jpg" alt="Boxcar Party" data-transition="slideInLeft" />
+                <img src="images/memory_verse.jpg" data-thumb="images/memory_verse.jpg" alt="Memory Verse"/>
+            </div>
+        </div>
+
+        <div id="welcome">
+          <h1>Welcome to Hope Kids!</h1>
+            <img src="images/kids_bible.png">
+            <p>We are a ministry that seeks to please God by helping others come to better understand Him. We place emphasis on teaching God’s Word (the Bible) and equipping parents to continue teaching their children throughout the week. If you want a place where your children can learn God’s Word while having a blast, we are the place for you!</p>
+            <div class="spacer"></div>
+          </div>
+
+          <div id='location'>
+            <h2>Our Location</h2>
+            <p>Hope Kids is a part of Living Hope Fellowship. Located in the Northeast Helena valley, our facililties allow plenty of room to let the youngsters explore the outdoors and be themselves.</p>
+            <img src="images/church_outside.jpg" id='church'>
+            <a href="https://livinghopehelena.org" target="blank"><button type='button' class='button' id="location_button">Learn More</button></a>
+            <!--<img src="images/running_kids.png" id='running'>-->
+            <div class="spacer_location"></div>
+          </div>
+
+          <div id="contact">
+            <h2>Contact Us</h2>
+            <p>Want to know more? Looking to get you or your kids plugged in somewhere? Let's get in touch!</p>
+            <button type="button" class="button" id='contact_button' onclick="window.location.href='contact.html'">Contact Form</button>
+          </div>
+      </section>
+
+      <footer>
+        <img src="images/CompactHopeKidsLogo.png">
+        <div id='address'>
+          <p><b>Address:</b></p>
+          <p class="address">Living Hope Fellowship</p>
+          <p class="address">4954 Arrowhead Drive</p>
+          <p class="address">Helena, MT 59602</p>
+        </div>
+
+        <div id='info'>
+          <p><b>Phone:</b> (406) 461-9953</p>
+          <p><b>Email:</b> ryanj50802@gmail.com</p>
+        </div>
+
+        <p id="copyright">&copy; 2022 Hope Kids Children's Ministry</p>
+      </footer>
+
+      <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+      <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+      <script type="text/javascript">
+      $(window).load(function() {
+          $('#slider').nivoSlider();
+      });
+      </script>
+
+  </body>
+</html>

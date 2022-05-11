@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rammetto+One&family=Titan+One&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, section, footer {
+  background: white;
+  margin: 10px;
+}
+
+header {
+  margin: 0;
+  /*position: fixed;*/
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(125, 113, 104, 0.9);
+  z-index: 10;
+}
+
+header img {
+  position: relative;
+  top: 15px;
+  left: 200px;
+  width: 200px;
+  padding: 0;
+  margin: 10px 0 0 20px;
+}
+
+nav {
+  margin: 0 20px 0 0;
+  background-color: transparent;
+  text-align: right;
+}
+
+nav ul {
+  position: relative;
+  bottom: 40px;
+  right: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  padding: 0 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family: "Bubblegum Sans";
+}
+
+nav a:hover {
+  color: lightblue;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+  }
+
+#welcome {
+  margin: 0;
+  padding: 50px 0 50px 0;
+  text-align: center;
+
+}
+
+#welcome h1 {
+  color: rgb(255, 196, 0);
+  -webkit-text-stroke:1px black;
+}
+
+#welcome img {
+  height: 200px;
+  float: left;
+  margin-left: 300px;
+  }
+
+#welcome p {
+  width: 40%;
+  text-align: left;
+  font-size: 20px;
+  float: right;
+  margin: 40px 300px 0 0;
+  font-weight: bold;
+}
+
+.spacer {
+  clear: both;
+  height: 60px;
+  margin: 0;
+}
+
+#location {
+  background-color: rgb(255, 196, 0, 0.7);
+  padding: 50px 0 0 0;
+}
+
+#location h2 {
+  font-family: "Rammetto One", sansa-serif;
+  font-size: 40px;
+  margin-left: 350px;
+  color: rgb(63,56,60);
+}
+
+#location p {
+  float: left;
+  font-weight: bold;
+  width: 35%;
+  margin: 0px 0 0 230px;
+}
+
+#church {
+  height: 350px;
+  float: right;
+  border: 3px solid black;
+  margin: -120px 50px 0 0;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Nunito", sans-serif;
+  border-radius: 5px;
+  border-width: 2px;
+  padding: 10px 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+
+#location_button {
+  background-color: rgb(162, 161, 255);
+  color: white;
+  float: left;
+  margin: 120px 0 0 -365px;
+}
+
+#location_button:hover {
+  background-color: rgb(0, 98, 255);
+}
+
+.spacer_location {
+  clear: both;
+  height: 50px;
+}
+
+#contact {
+  margin: 100px;
+}
+
+#contact h2 {
+  font-family: "Rammetto One", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(63,56,60);
+}
+
+#contact p {
+  font-weight: bold;
+  margin: 0;
+}
+
+#contact_button {
+  background-color: rgb(255, 196, 0);
+  padding: 10px 20px;
+  margin: 40px 0 0 43%;
+}
+
+#contact_link {
+  background-color: black;
+  margin-left: 300px;
+}
+
+#contact_button:hover {
+  background-color: rgb(145, 85, 0);
+}
+
+footer {
+  margin: 0;
+  background-color: rgba(63,56,60);
+  color: white;
+  overflow: auto;
+  text-align: center;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+}
+
+footer img {
+  width: 150px;
+  float: left;
+  margin: 30px 0 30px 420px;
+}
+
+footer #address {
+  float: left;
+  margin: 30px 0 30px 150px;
+}
+
+footer .address {
+  margin: 0 0 5px 0;
+}
+
+footer #info {
+  float: left;
+  margin: 50px 0 30px 80px;
+}
+
+#copyright {
+  display: block;
+  background-color: black;
+  clear: both;
+  margin-bottom: 0;
+  padding: 20px;
+}
+
+.about header {
+  position: relative;
+}
+
+#about_banner {
+  margin: 50px 31%;
+  padding: 0;
+}
+
+#banner_container {
+  background-image: url('images/orange_banner.jpg');
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Titan One", sans-serif;
+  margin: 0 0 70px 0;
+  padding-top: 70px;
+}
+
+section p {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+}
+
+.centered {
+  text-align: center;
+  font-weight: bold;
+  width: 50%;
+  margin: 60px auto;
+}
+
+.about h1 {
+  color: rgb(63,56,60);
+}
+
+#mission {
+  font-size: 40px;
+  font-family: "Rammetto One", sans-serif;
+  margin: 70px;
+  color: orange;
+  -webkit-text-stroke:3px black;
+}
+
+#vision_container {
+  background-color: rgb(255, 196, 0, 0.7);
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+#values_container {
+  margin: auto;
+  width: 70%;
+  padding-bottom: 50px;
+}
+
+#friendship {
+  width: 300px;
+  float: left;
+  margin: 40px 20px 0 0;
+}
+
+#values_container b {
+  text-align: center;
+}
+
+.values {
+  text-align: left;
+}
+
+.value_heading {
+  font-weight: bold;
+  text-align: center;
+}
+
+#volunteer {
+  width: 150px;
+  float: right;
+  margin: -30px 0 0 20px;
+}
+
+.right-align {
+  text-align: center;
+}
+
+#invite {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.contact h2 {
+  font-family: "Rammetto One", sans-serif;
+  margin-left: 19%;
+}
+
+form {
+  float: left;
+}
+
+fieldset {
+  margin: 0 45%;
+  width: 50%;
+  border-radius: 5px;
+  border: none;
+}
+
+fieldset p {
+  text-align: left;
+}
+
+input {
+  line-height: 3;
+  background-color: rgb(245, 245, 245);
+  border: 1px solid gray;
+}
+
+#message {
+  width: 99%;
+  line-height: 5;
+  background-color: rgb(245, 245, 245);
+  border: 1px solid gray;
+}
+
+#submit {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(255, 196, 0);
+  color: rgb(63,56,60);
+  padding: 0 30px;
+  border: 1px solid black;
+}
+
+#submit:hover {
+  background-color: white;
+  transition-duration: 0.4s;
+  color: rgb(255, 196, 0);
+  border-color: rgb(255, 196, 0);
+}
+
+.embed-container {
+  float: right;
+  padding: 0 15% 5% 0;
+  width: 30%;
+  max-width: 100%;
+  }
+
+.embed-container h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+#directions {
+  margin-top: 40px;
+}
+
+#confirmation {
+  margin: 50px -4%;
+}
+
+.classes h2 {
+  font-family: "Rammetto One", sans-serif;
+}
+
+.banner-text {
+  color: white;
+  -webkit-text-stroke: 2px black;s
+  margin: 0;
+  padding: 70px;
+}
+
+.title {
+  color: rgb(255, 196, 0);
+  text-align: center;
+  font-size: 40px;
+  -webkit-text-stroke: 2px black;
+  padding-top: 50px;
+}
+
+#mighty-lambs {
+  float: left;
+  text-align: center;
+  margin-left: 250px;
+}
+
+#tnt {
+  float: right;
+  text-align: center;
+  margin-right: 250px;
+}
+
+.schedule {
+  background-color: rgb(255, 196, 0, 0.7);
+  margin: 0;
+  padding: 0;
+}
+
+#schedule-title {
+  color: rgb(63,56,60, 0.7);
+  -webkit-text-stroke: 2px black;
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  padding: 100px 0 50px 0;
+}
+
+#left-group {
+  float: left;
+  text-align: center;
+  margin: 0 0 0 300px;
+  padding-bottom: 40px;
+  width: 30%;
+}
+
+#right-group {
+  float: right;
+  text-align: center;
+  width: 30%;
+  margin: 0 300px 0 0;
+}
+
+.resources section a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 10px;
+}
+
+.resources section a:hover {
+  color: rgb(255, 196, 0);
+}
+
+.resources section #teachers a:hover {
+  color: white;
+}
+
+.centered1 {
+  margin-left: 50%;
+}
+
+.parents {
+  width: 200px;
+  float: right;
+  margin-right: 400px;
+  padding: 0;
+}
+
+#parent-title {
+  text-align: center;
+  margin: 70px 39%;
+}
+
+.video {
+  float: left;
+  width: 400px;
+  margin: 20px 0 0 6%;
+}
+
+.teacher-links {
+  float: left;
+  margin-left: 5%;
+}
+
+#teachers {
+  background-color: rgb(255, 196, 0, 0.7)
+}
